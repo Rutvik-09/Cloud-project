@@ -80,7 +80,7 @@ function Cart({ cart, handleChange, setCart }) {
               fontSize={30}
               sx={{ m: "2%" }}
             >
-              Price: {parseInt(item.amount)}
+              Price: $ {item.amount}
             </Typography>
 
             <Typography
@@ -140,7 +140,7 @@ function Cart({ cart, handleChange, setCart }) {
           fontWeight={"bold"}
           sx={{ m: "2%" }}
         >
-          Total: {price}
+          Total price : $ {price}
         </Typography>
       </Card>
       <Box

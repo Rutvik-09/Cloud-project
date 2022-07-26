@@ -78,7 +78,7 @@ const HomePage = ({ data, addToCart, handleChange }) => {
               fontSize={30}
               sx={{ m: "2%" }}
             >
-              Price: {item.amount}
+              Price: ${item.amount}
             </Typography>
 
             <Typography

@@ -44,7 +44,15 @@ function Navbar({ data, cart }) {
           sx={{ flexGrow: 1, padding: "20px" }}
         >
           HANDICRAFT E-STORE
+          <Button
+            href="/addproduct"
+            color="inherit"
+            sx={{ ml: "20px", fontSize: "20px" }}
+          >
+            Add Product
+          </Button>
         </Typography>
+
         {/* 
         <IconButton size="large" edge="start" color="inherit" aria-label="logo">
           <AccountCircleIcon></AccountCircleIcon>
@@ -64,7 +72,7 @@ function Navbar({ data, cart }) {
           <Button href="/aboutus" color="inherit" sx={{ fontSize: "20px" }}>
             About
           </Button>
-          <Button href="/login" color="inherit" sx={{ fontSize: "20px" }}>
+          <Button href="/" color="inherit" sx={{ fontSize: "20px" }}>
             {/* <Link to="/login"></Link> */}
             Logout
           </Button>

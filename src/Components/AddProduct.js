@@ -65,7 +65,7 @@ function AddProduct() {
         productData
       )
       .then((response) => {
-        alert("Details for the added!");
+        alert("Details for the product added!");
         navigate("/homepage");
       })
       .catch((error) => {
